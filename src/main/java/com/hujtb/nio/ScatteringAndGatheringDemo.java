@@ -8,6 +8,6 @@ package com.hujtb.nio;
  */
 public class ScatteringAndGatheringDemo {
     public static void main(String[] args) {
-        
+
     }
 }
