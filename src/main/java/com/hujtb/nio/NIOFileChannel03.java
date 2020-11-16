@@ -6,6 +6,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
+ * 读写使用同一个buffer
  * @Author: hujtb
  * @Date: 2020/11/11 14:36
  */
