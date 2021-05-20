@@ -31,6 +31,7 @@ public class ScatteringAndGatheringDemo {
 
         // 等待客户端连接
         SocketChannel socketChannel = serverSocketChannel.accept();
+        // 假定一次最多从客户端接收8个字节
         int messageLength = 8;
 
         while(true) {

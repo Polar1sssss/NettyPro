@@ -16,7 +16,7 @@ public class MappedByteBufferDemo {
         /**
          * 参数一：使用读写模式
          * 参数二：可以直接修改的起始位置
-         * 参数三：将文件的多少个字节映射到内存中，即可修改的范围，5个字节
+         * 参数三：将文件的多少个字节映射到内存中，即可修改的范围，5个字节（不是索引位置）
          * 实际类型是DirectByteBuffer
          */
         MappedByteBuffer map = channel.map(FileChannel.MapMode.READ_WRITE, 0, 5);

@@ -3,7 +3,6 @@ package com.hujtb.nio;
 import java.nio.IntBuffer;
 
 /**
- *
  * @Author: hujtb
  * @Date: 2020/11/10 17:34
  */
@@ -17,7 +16,7 @@ public class BasicBuffer {
 
         // 读写切换
         buffer.flip();
-            while(buffer.hasRemaining()) {
+        while (buffer.hasRemaining()) {
             System.out.println(buffer.get());
         }
     }

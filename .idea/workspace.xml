@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc980a81-1614-484d-9d55-31552b7b1ba4" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="cc980a81-1614-484d-9d55-31552b7b1ba4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_netty_netty_all_4_1_20_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestMergeWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NettyPro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/NettyServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/nio/BasicBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/nio/BasicBuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/nio/MappedByteBufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/nio/MappedByteBufferDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/nio/ScatteringAndGatheringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/nio/ScatteringAndGatheringDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/NettyPro.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/bio/BIOClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/bio/BIOServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/bio/BIOServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/NettyClient$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/NettyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/NettyClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/NettyServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/NettyServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/NettyServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/BasicBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/MappedByteBufferDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/NIOClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/NIOFileChannel01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/NIOFileChannel02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/NIOFileChannel03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/NIOFileChannel04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/NIOServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/ScatteringAndGatheringDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/groupchat/GroupChatClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/groupchat/GroupChatServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/zerocopy/OldClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/zerocopy/OldServer.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,14 +61,38 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1k5VceIomfsqkhPFsVpkQgA1MsR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.35672516" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -35,94 +102,79 @@
       <recent name="D:\NettyPro" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.MappedByteBufferDemo">
-    <configuration name="MappedByteBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.nio.MappedByteBufferDemo" />
-      <module name="NettyPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hujtb.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="JUnit.TestMergeWord.mergeFiles">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOChannel04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.nio.NIOChannel04" />
+    <configuration name="TestMergeWord.generateDocxTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NettyPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hujtb.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMergeWord" />
+      <option name="METHOD_NAME" value="generateDocxTemplate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOFileChannel01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.nio.NIOFileChannel01" />
+    <configuration name="TestMergeWord.getDocxContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NettyPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hujtb.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMergeWord" />
+      <option name="METHOD_NAME" value="getDocxContent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOFileChannel02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.nio.NIOFileChannel02" />
+    <configuration name="TestMergeWord.getWordContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NettyPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hujtb.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMergeWord" />
+      <option name="METHOD_NAME" value="getWordContent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NIOFileChannel03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.nio.NIOFileChannel03" />
+    <configuration name="TestMergeWord.mergeFiles (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NettyPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hujtb.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMergeWord" />
+      <option name="METHOD_NAME" value="mergeFiles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMergeWord.mergeFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NettyPro" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMergeWord" />
+      <option name="METHOD_NAME" value="mergeFiles" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MappedByteBufferDemo" />
-        <item itemvalue="Application.NIOChannel04" />
-        <item itemvalue="Application.NIOFileChannel03" />
-        <item itemvalue="Application.NIOFileChannel02" />
-        <item itemvalue="Application.NIOFileChannel01" />
+        <item itemvalue="JUnit.TestMergeWord.mergeFiles" />
+        <item itemvalue="JUnit.TestMergeWord.generateDocxTemplate" />
+        <item itemvalue="JUnit.TestMergeWord.getDocxContent" />
+        <item itemvalue="JUnit.TestMergeWord.mergeFiles (1)" />
+        <item itemvalue="JUnit.TestMergeWord.getWordContent" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -135,12 +187,31 @@
       <updated>1604990519165</updated>
       <workItem from="1604990525172" duration="385000" />
       <workItem from="1604991049553" duration="13631000" />
-      <workItem from="1605065653850" duration="8786000" />
+      <workItem from="1605065653850" duration="35080000" />
+      <workItem from="1605410778598" duration="2586000" />
+      <workItem from="1605507271906" duration="830000" />
+      <workItem from="1605511525604" duration="11989000" />
+      <workItem from="1605773227676" duration="136000" />
+      <workItem from="1605777163436" duration="11432000" />
+      <workItem from="1606296180493" duration="8175000" />
+      <workItem from="1606801835262" duration="23000" />
+      <workItem from="1607482184608" duration="15865000" />
+      <workItem from="1607506984197" duration="160000" />
+      <workItem from="1609729004342" duration="87000" />
+      <workItem from="1621323119915" duration="12956000" />
     </task>
+    <task id="LOCAL-00001" summary="netty网络编程模型">
+      <created>1605522218690</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605522218690</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -152,5 +223,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="netty网络编程模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty网络编程模型" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
