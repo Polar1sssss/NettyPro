@@ -4,47 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc980a81-1614-484d-9d55-31552b7b1ba4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_netty_netty_all_4_1_20_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestMergeWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="cc980a81-1614-484d-9d55-31552b7b1ba4" name="Default Changelist" comment="netty网络编程模型">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/http/TestHttpServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/http/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/http/TestServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/simple/NettyServerHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NettyPro.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/NettyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/NettyServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/nio/BasicBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/nio/BasicBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/nio/MappedByteBufferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/nio/MappedByteBufferDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/nio/ScatteringAndGatheringDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/nio/ScatteringAndGatheringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/NettyPro.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/bio/BIOClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/bio/BIOServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/bio/BIOServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/NettyClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/NettyClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/NettyClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/NettyServer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/NettyServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/NettyServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/BasicBuffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/MappedByteBufferDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/NIOClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/NIOFileChannel01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/NIOFileChannel02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/NIOFileChannel03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/NIOFileChannel04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/NIOServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/ScatteringAndGatheringDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/groupchat/GroupChatClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/groupchat/GroupChatServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/zerocopy/OldClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/nio/zerocopy/OldServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/simple/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/NettyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/simple/NettyClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/simple/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/NettyServerHandler.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +29,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -95,14 +72,14 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hujtb.nio" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\NettyPro" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hujtb.nio" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestMergeWord.mergeFiles">
+  <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -114,65 +91,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMergeWord.generateDocxTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NettyPro" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMergeWord" />
-      <option name="METHOD_NAME" value="generateDocxTemplate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMergeWord.getDocxContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NettyPro" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMergeWord" />
-      <option name="METHOD_NAME" value="getDocxContent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMergeWord.getWordContent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NettyPro" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMergeWord" />
-      <option name="METHOD_NAME" value="getWordContent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMergeWord.mergeFiles (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NettyPro" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMergeWord" />
-      <option name="METHOD_NAME" value="mergeFiles" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMergeWord.mergeFiles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NettyPro" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMergeWord" />
-      <option name="METHOD_NAME" value="mergeFiles" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TestMergeWord.mergeFiles" />
-        <item itemvalue="JUnit.TestMergeWord.generateDocxTemplate" />
-        <item itemvalue="JUnit.TestMergeWord.getDocxContent" />
-        <item itemvalue="JUnit.TestMergeWord.mergeFiles (1)" />
-        <item itemvalue="JUnit.TestMergeWord.getWordContent" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -198,7 +116,9 @@
       <workItem from="1607482184608" duration="15865000" />
       <workItem from="1607506984197" duration="160000" />
       <workItem from="1609729004342" duration="87000" />
-      <workItem from="1621323119915" duration="12956000" />
+      <workItem from="1621323119915" duration="20042000" />
+      <workItem from="1621565019650" duration="7455000" />
+      <workItem from="1621583809456" duration="6415000" />
     </task>
     <task id="LOCAL-00001" summary="netty网络编程模型">
       <created>1605522218690</created>

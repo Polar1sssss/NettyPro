@@ -1,4 +1,4 @@
-package com.hujtb.netty;
+package com.hujtb.netty.simple;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -21,7 +21,7 @@ public class NettyClient {
             // 创建客户端启动对象，使用的是BootStrap
             Bootstrap bootstrap = new Bootstrap();
             bootstrap.group(group)
-                    .channel(NioSocketChannel.class)
+                    .channel(NioSocketChannel.class) // 设置客户端通道的实现类（反射）
                     .handler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel channel) throws Exception {
@@ -31,6 +31,7 @@ public class NettyClient {
             System.out.println("客户端 ok...");
             // 启动客户端去连接服务器端，关于ChannelFuture要分析，涉及到netty的异步模型
             ChannelFuture sync = bootstrap.connect("127.0.0.1", 6668).sync();
+            // 对关闭通道进行监听
             sync.channel().closeFuture().sync();
         } finally {
             group.shutdownGracefully();
