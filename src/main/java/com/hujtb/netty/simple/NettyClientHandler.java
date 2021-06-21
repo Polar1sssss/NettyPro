@@ -10,7 +10,7 @@ import io.netty.util.CharsetUtil;
  * @Author: hujtb
  * @Date: 2020/11/16 17:48
  */
-public class NettyClientHandler  extends ChannelInboundHandlerAdapter {
+public class NettyClientHandler extends ChannelInboundHandlerAdapter {
     /**
      * 当通道就绪触发事件
      * @param ctx
@@ -21,7 +21,7 @@ public class NettyClientHandler  extends ChannelInboundHandlerAdapter {
         System.out.println("client：" + ctx);
         ctx.writeAndFlush(Unpooled.copiedBuffer("hello, miao", CharsetUtil.UTF_8));
     }
-    
+
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         ByteBuf buf = (ByteBuf) msg;
