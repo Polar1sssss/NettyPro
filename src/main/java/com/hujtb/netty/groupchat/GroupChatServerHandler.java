@@ -8,13 +8,15 @@ import io.netty.channel.group.DefaultChannelGroup;
 import io.netty.util.concurrent.GlobalEventExecutor;
 
 import java.text.SimpleDateFormat;
+import java.util.HashMap;
+import java.util.Map;
 
 public class GroupChatServerHandler extends SimpleChannelInboundHandler<String> {
 
     //public static List<Channel> channels = new ArrayList<Channel>();
 
     //使用一个hashmap 管理
-    //public static Map<String, Channel> channels = new HashMap<String,Channel>();
+    // public static Map<User, Channel> channels2 = new HashMap<User, Channel>();
 
     //定义一个channel组，管理所有的channel
     //GlobalEventExecutor.INSTANCE是全局的事件执行器，是一个单例
@@ -30,8 +32,7 @@ public class GroupChatServerHandler extends SimpleChannelInboundHandler<String> 
         // 该方法会将 channelGroup 中所有的channel遍历，并发送消息
         channelGroup.writeAndFlush("[客户端]" + channel.remoteAddress() + " 加入聊天" + sdf.format(new java.util.Date()) + " \n");
         channelGroup.add(channel);
-
-
+        // channels2.put(new User(1, "12345"), channel);
     }
 
     //断开连接, 将xx客户离开信息推送给当前在线的客户

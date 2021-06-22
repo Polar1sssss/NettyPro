@@ -5,19 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc980a81-1614-484d-9d55-31552b7b1ba4" name="Default Changelist" comment="netty网络编程模型">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/buf/NettyBuf01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/buf/NettyBuf02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/groupchat/GroupChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/groupchat/GroupChatClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/groupchat/GroupChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/groupchat/GroupChatServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/groupchat/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec/StudentPOJO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/MyDataInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/NettyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/Student.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/groupchat/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/heartbeat/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/heartbeat/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/websocket/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/websocket/MyTextWebSocketFrameHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/websocket/hello.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/io_netty_netty_all_4_1_20_Final.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/simple/NettyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/simple/NettyClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/simple/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/simple/NettyServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/groupchat/GroupChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/groupchat/GroupChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/groupchat/GroupChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hujtb/netty/groupchat/GroupChatServerHandler.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -60,6 +71,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="true" />
     <property name="Repository.Attach.JavaDocs" value="true" />
@@ -69,14 +81,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35672516" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NettyPro\src\main\java\com\hujtb\netty\codec2" />
+      <recent name="D:\NettyPro\src\main\java\com\hujtb\netty\codec" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\NettyPro" />
     </key>
@@ -85,13 +101,13 @@
       <recent name="com.hujtb.nio" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GroupChatClient">
-    <configuration name="GroupChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.groupchat.GroupChatClient" />
+  <component name="RunManager" selected="Application.NettyClient">
+    <configuration name="MyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.websocket.MyServer" />
       <module name="NettyPro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hujtb.netty.groupchat.*" />
+          <option name="PATTERN" value="com.hujtb.netty.websocket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GroupChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.groupchat.GroupChatServer" />
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.codec.NettyClient" />
       <module name="NettyPro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hujtb.netty.groupchat.*" />
+          <option name="PATTERN" value="com.hujtb.netty.codec.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,29 +128,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyBuf02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.buf.NettyBuf02" />
+    <configuration name="NettyClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.codec2.NettyClient" />
       <module name="NettyPro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hujtb.netty.buf.*" />
+          <option name="PATTERN" value="com.hujtb.netty.codec2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.codec2.NettyServer" />
+      <module name="NettyPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hujtb.netty.codec2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.codec.NettyServer" />
+      <module name="NettyPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hujtb.netty.codec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GroupChatClient" />
-      <item itemvalue="Application.GroupChatServer" />
-      <item itemvalue="Application.NettyBuf02" />
+      <item itemvalue="Application.MyServer (1)" />
+      <item itemvalue="Application.NettyServer" />
+      <item itemvalue="Application.NettyClient" />
+      <item itemvalue="Application.NettyServer (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GroupChatClient" />
-        <item itemvalue="Application.GroupChatServer" />
-        <item itemvalue="Application.NettyBuf02" />
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer (1)" />
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.MyServer (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +228,8 @@
       <workItem from="1622095337206" duration="2251000" />
       <workItem from="1622098068586" duration="4662000" />
       <workItem from="1623910338040" duration="238000" />
-      <workItem from="1624261812953" duration="466000" />
+      <workItem from="1624261812953" duration="10832000" />
+      <workItem from="1624331996242" duration="8670000" />
     </task>
     <task id="LOCAL-00001" summary="netty网络编程模型">
       <created>1605522218690</created>
@@ -201,6 +260,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="netty网络编程模型" />
     <option name="LAST_COMMIT_MESSAGE" value="netty网络编程模型" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
