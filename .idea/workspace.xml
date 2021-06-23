@@ -5,29 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc980a81-1614-484d-9d55-31552b7b1ba4" name="Default Changelist" comment="netty网络编程模型">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec/NettyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec/Student.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec/StudentPOJO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/MyDataInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/NettyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/NettyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/Student.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/groupchat/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/heartbeat/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/heartbeat/MyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/websocket/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/websocket/MyTextWebSocketFrameHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/websocket/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyByteToLongDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyByteToLongDecoder2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyLongToByteEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/groupchat/GroupChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/groupchat/GroupChatServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/groupchat/GroupChatServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hujtb/netty/groupchat/GroupChatServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/codec2/NettyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hujtb/netty/codec2/NettyServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/codec2/NettyServer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hujtb/netty/codec2/NettyServer$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/codec2/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hujtb/netty/codec2/NettyServer.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -89,6 +82,9 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hujtb.netty.inoutboundhandler" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\NettyPro\src\main\java\com\hujtb\netty\codec2" />
       <recent name="D:\NettyPro\src\main\java\com\hujtb\netty\codec" />
@@ -101,13 +97,26 @@
       <recent name="com.hujtb.nio" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NettyClient">
-    <configuration name="MyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.websocket.MyServer" />
+  <component name="RunManager" selected="Application.MyClient">
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.inoutboundhandler.MyClient" />
       <module name="NettyPro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hujtb.netty.websocket.*" />
+          <option name="PATTERN" value="com.hujtb.netty.inoutboundhandler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.inoutboundhandler.MyServer" />
+      <module name="NettyPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hujtb.netty.inoutboundhandler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,45 +126,6 @@
     </configuration>
     <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.codec.NettyClient" />
-      <module name="NettyPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hujtb.netty.codec.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NettyClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.codec2.NettyClient" />
-      <module name="NettyPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hujtb.netty.codec2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NettyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.codec2.NettyServer" />
-      <module name="NettyPro" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hujtb.netty.codec2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.codec.NettyServer" />
       <module name="NettyPro" />
       <extension name="coverage">
         <pattern>
@@ -180,19 +150,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.MyServer (1)" />
-      <item itemvalue="Application.NettyServer" />
-      <item itemvalue="Application.NettyClient" />
-      <item itemvalue="Application.NettyServer (1)" />
-    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyServer" />
+        <item itemvalue="Application.MyClient" />
         <item itemvalue="Application.NettyClient" />
-        <item itemvalue="Application.NettyServer (1)" />
-        <item itemvalue="Application.NettyClient" />
-        <item itemvalue="Application.NettyServer" />
-        <item itemvalue="Application.MyServer (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +191,7 @@
       <workItem from="1622098068586" duration="4662000" />
       <workItem from="1623910338040" duration="238000" />
       <workItem from="1624261812953" duration="10832000" />
-      <workItem from="1624331996242" duration="8670000" />
+      <workItem from="1624331996242" duration="26224000" />
     </task>
     <task id="LOCAL-00001" summary="netty网络编程模型">
       <created>1605522218690</created>

@@ -1,6 +1,5 @@
 package com.hujtb.netty.codec2;
 
-import com.hujtb.netty.codec.StudentPOJO;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
