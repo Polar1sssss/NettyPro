@@ -11,6 +11,9 @@ import io.netty.handler.timeout.IdleStateHandler;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * 心跳检测
+ */
 public class MyServer {
     public static void main(String[] args) throws InterruptedException {
         //创建两个线程组

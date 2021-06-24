@@ -8,6 +8,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.protobuf.ProtobufDecoder;
 
 /**
+ * Protobuf对POJO类型数据的解码
  * @Author: hujtb
  * @Date: 2020/11/15 11:48
  */

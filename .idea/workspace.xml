@@ -5,22 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc980a81-1614-484d-9d55-31552b7b1ba4" name="Default Changelist" comment="netty网络编程模型">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyByteToLongDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyByteToLongDecoder2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyClientInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyLongToByteEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/inoutboundhandler/MyServerInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/protocoltcp/MessageProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/protocoltcp/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/protocoltcp/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/protocoltcp/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/protocoltcp/MyMessageDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/protocoltcp/MyMessageEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/protocoltcp/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/protocoltcp/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/protocoltcp/MyServerInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/tcp/MyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/tcp/MyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/tcp/MyClientInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/tcp/MyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/tcp/MyServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/tcp/MyServerInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/heartbeat/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hujtb/netty/heartbeat/MyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/codec2/NettyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hujtb/netty/codec2/NettyServer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/codec2/NettyServer$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hujtb/netty/codec2/NettyServer$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/codec2/NettyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hujtb/netty/codec2/NettyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/heartbeat/MyServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hujtb/netty/heartbeat/MyServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hujtb/netty/heartbeat/MyServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hujtb/netty/heartbeat/MyServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +83,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/hujtb/netty/codec2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/hujtb/netty/protocoltcp" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -86,6 +95,8 @@
       <recent name="com.hujtb.netty.inoutboundhandler" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NettyPro\src\main\java\com\hujtb\netty\protocoltcp" />
+      <recent name="D:\NettyPro\src\main\java\com\hujtb\netty\tcp" />
       <recent name="D:\NettyPro\src\main\java\com\hujtb\netty\codec2" />
       <recent name="D:\NettyPro\src\main\java\com\hujtb\netty\codec" />
     </key>
@@ -97,8 +108,8 @@
       <recent name="com.hujtb.nio" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyClient">
-    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MyClient (2)">
+    <configuration name="MyClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.inoutboundhandler.MyClient" />
       <module name="NettyPro" />
       <extension name="coverage">
@@ -111,7 +122,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MyClient (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.protocoltcp.MyClient" />
+      <module name="NettyPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hujtb.netty.protocoltcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.tcp.MyClient" />
+      <module name="NettyPro" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hujtb.netty.tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.inoutboundhandler.MyServer" />
       <module name="NettyPro" />
       <extension name="coverage">
@@ -124,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.codec.NettyClient" />
+    <configuration name="MyServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hujtb.netty.protocoltcp.MyServer" />
       <module name="NettyPro" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hujtb.netty.codec.*" />
+          <option name="PATTERN" value="com.hujtb.netty.protocoltcp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,24 +174,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyServer" />
+        <item itemvalue="Application.MyClient (2)" />
+        <item itemvalue="Application.MyServer (2)" />
+        <item itemvalue="Application.MyClient (1)" />
+        <item itemvalue="Application.MyServer (1)" />
         <item itemvalue="Application.MyClient" />
-        <item itemvalue="Application.NettyClient" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +228,8 @@
       <workItem from="1622098068586" duration="4662000" />
       <workItem from="1623910338040" duration="238000" />
       <workItem from="1624261812953" duration="10832000" />
-      <workItem from="1624331996242" duration="26224000" />
+      <workItem from="1624331996242" duration="34857000" />
+      <workItem from="1624525726393" duration="2931000" />
     </task>
     <task id="LOCAL-00001" summary="netty网络编程模型">
       <created>1605522218690</created>
@@ -236,5 +274,16 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/NettyPro$MyClient.ic" NAME="MyClient Coverage Results" MODIFIED="1624504704215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hujtb.netty.tcp.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/NettyPro$MyServer.ic" NAME="MyServer Coverage Results" MODIFIED="1624504692917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hujtb.netty.tcp.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/NettyPro$MyServer__1_.ic" NAME="MyServer (1) Coverage Results" MODIFIED="1624504571499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hujtb.netty.tcp.*</FILTER>
+    </SUITE>
   </component>
 </project>
